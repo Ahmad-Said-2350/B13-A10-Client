@@ -22,6 +22,8 @@ export function protectedFetch(path, options = {}) {
   });
 }
 
+
+
 export async function apiFetch(path, options = {}) {
   const res = await protectedFetch(path, options);
   const data = await res.json().catch(() => ({}));
