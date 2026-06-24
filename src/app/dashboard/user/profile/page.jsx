@@ -29,6 +29,7 @@ export default function ProfilePage() {
 
   useEffect(() => {
     if (!session?.user) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setName(session.user.name || "");
     setImage(session.user.image || "");
   }, [session]);
