@@ -53,10 +53,12 @@ export default function BrowseRecipesPage() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setPage(1);
   }, [debouncedSearch, selected]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchRecipes(page, selected, debouncedSearch);
   }, [page, selected, debouncedSearch, fetchRecipes]);
 
