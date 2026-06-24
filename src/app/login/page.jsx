@@ -20,6 +20,7 @@ function LoginForm() {
   useEffect(() => {
     document.title = "Login — RecipeHub";
     if (searchParams.get("blocked") === "1") {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setError("Your account has been blocked. Contact the administrator.");
     }
   }, [searchParams]);
