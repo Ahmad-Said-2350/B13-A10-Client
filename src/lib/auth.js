@@ -65,3 +65,4 @@ export const auth = betterAuth({
     updateAge: 60 * 60 * 24,
   },
 });
+
