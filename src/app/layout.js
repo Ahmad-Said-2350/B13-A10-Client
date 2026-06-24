@@ -1,5 +1,6 @@
 import dns  from "node:dns";
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
