@@ -10,9 +10,9 @@ Built for clarity — real recipes, honest engagement, clean experience.
 
 RecipeHub connects recipe creators with a community of food enthusiasts. Browse curated and popular recipes, like and favorite dishes, purchase premium recipes, and manage your own collection from a protected dashboard. Authentication is handled by BetterAuth; protected API calls use an Express JWT cookie.
 
-**Live Site:** `[https://your-client-url.vercel.app](https://b13-a10-client.vercel.app/)`  
-**Server Repo:** `[https://github.com/your-username/recipehub-server](https://github.com/Ahmad-Said-2350/B13-A10-Server)`  
-**Live API:** `[https://your-server-url.onrender.com](https://b13-a10-server.vercel.app/)`
+**Live Site:** `https://b13-a10-client.vercel.app`  
+**Server Repo:** `https://github.com/Ahmad-Said-2350/B13-A10-Server`  
+**Live API:** `https://b13-a10-server.vercel.app`
 
 ---
 
@@ -97,7 +97,7 @@ Light and dark themes supported via `ThemeToggle` — preference persists in `lo
 ### Install
 
 ```bash
-git clone [https://github.com/your-username/recipehub-client](https://github.com/Ahmad-Said-2350/B13-A10-Client)
+git clone https://github.com/Ahmad-Said-2350/B13-A10-Client
 cd recipehub-client
 npm install
 npm run dev
