@@ -16,6 +16,7 @@ export default function PopularRecipes() {
       .finally(() => setLoading(false));
   }, []);
 
+  
   return (
     <section className="px-4 py-16 max-w-6xl mx-auto">
       <p className="section-label text-center mb-2">Popular Recipes</p>

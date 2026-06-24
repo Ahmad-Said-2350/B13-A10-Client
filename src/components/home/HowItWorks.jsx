@@ -19,6 +19,7 @@ const steps = [
   },
 ];
 
+
 export default function HowItWorks() {
   return (
     <section className="px-4 py-16 max-w-6xl mx-auto">
