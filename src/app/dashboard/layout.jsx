@@ -9,13 +9,15 @@ import Sidebar from "@/components/dashboard/Sidebar";
 import Logo from "@/components/Logo";
 import Loader from "@/components/Loader";
 
+
+
 export default function DashboardLayout({ children }) {
   const router = useRouter();
   const { data: session, isPending } = authClient.useSession();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [jwtReady, setJwtReady] = useState(false);
 
-  useEffect(() => {
+     useEffect(() => {
     if (!isPending && !session) {
       router.push("/login");
       return;
