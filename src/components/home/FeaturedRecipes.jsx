@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import RecipeCard from "@/components/RecipeCard";
 import Loader from "@/components/Loader";
 
+
 export default function FeaturedRecipes() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -22,8 +23,7 @@ export default function FeaturedRecipes() {
       <h2 className="text-2xl md:text-3xl font-display font-bold text-primary text-center mb-10">
         Handpicked for You
       </h2>
-
-      {loading ? (
+{loading ? (
         <Loader />
       ) : recipes.length === 0 ? (
         <p className="text-center text-muted text-sm">
@@ -39,7 +39,3 @@ export default function FeaturedRecipes() {
     </section>
   );
 }
-
-
-
-
