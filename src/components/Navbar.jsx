@@ -161,6 +161,9 @@ if(pathname.includes("/dashboard")) {
       )}
     </div>
   );
+  
 };
+
+
 
 export default Navbar;

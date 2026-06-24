@@ -25,6 +25,7 @@ export default function ThemeProvider({ children }) {
 
   useEffect(() => {
     const initial = getInitialTheme();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setThemeState(initial);
     document.documentElement.classList.toggle("dark", initial === "dark");
     setMounted(true);

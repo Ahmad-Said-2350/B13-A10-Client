@@ -88,3 +88,6 @@ if(pathname.includes("/dashboard")) {
 };
 
 export default Footer;
+
+
+

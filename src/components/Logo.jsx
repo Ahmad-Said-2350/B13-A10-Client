@@ -15,6 +15,10 @@ export default function Logo({ href = "/", className = "", showIcon = true, onCl
     </span>
   );
 
+
+
+  
+
   if (href) {
     return (
       <Link href={href} onClick={onClick} className="inline-flex">
