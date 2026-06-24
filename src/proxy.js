@@ -2,8 +2,10 @@ import { NextResponse } from "next/server";
 import { getSessionCookie } from "better-auth/cookies";
 
 /**
+ * 
  * Protects private frontend routes (dashboard + payment).
- * Public routes: /, /recipes, /recipes/[id], /login, /register
+ * Public routes: /, /recipes, /recipes/[id], /login, /register 
+ * 
  */
 export async function proxy(request) {
   const sessionCookie = getSessionCookie(request);
