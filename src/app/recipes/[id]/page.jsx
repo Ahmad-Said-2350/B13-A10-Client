@@ -66,6 +66,7 @@ export default function RecipeDetailsPage() {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     fetchRecipe();
   }, [recipeId, session]);
